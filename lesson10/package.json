@@ -1,0 +1,7 @@
+{
+  "name": "lesson10",
+  "version": "0.0.1",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
