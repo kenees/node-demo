@@ -4,9 +4,11 @@
 lesson0:一个最简单的 express 应用
 lesson1:学习使用外部模块（md5）
 lesson3:使用 superagent 与 cheerio 完成简单爬虫
-lesson4:利用 eventproxy 模块实现异步协作参考；网址：https://wenku.baidu.com/view/5c6092f2770bf78a6529544b.html
-lesson5:使用 async 控制并发 series 多个函数从上到下依次执行，相互之间没有数据交互
-                          parallel 多个函数同时执行，不会等待其他函数，但是一旦出错，后面未执行完的将不再执行
-                          更多参考：http://www.jb51.net/article/118526.html
-lesson6:测试用例
-        
+
+
+lesson9:正则表达式
+lesson10:benchmark测试代码速度效率
+lesson11:作用域与闭包  this  var  (function(){})
+            1.理解 js 中 var 的作用域
+            2.了解闭包的概念
+            3.理解 this 的指向
