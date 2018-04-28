@@ -5,7 +5,6 @@
     <title>Title</title>
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="DES3.js"></script>
-    <script src="Base64.js"></script>
 </head>
 <body>
 
@@ -20,7 +19,7 @@
     //alert(unicode);
     document.write("</br>还原:</br>"+unicode);
     //var str= "你好123hello";
-    var key = "qXSdHWfbSZaaLeHBRhLgxBiG";
+    var key = "0123456789";
     //alert(decrypt_3des);
     var des3en = DES3.encrypt(key,str);
     document.write("</br>des3加密:</br>"+des3en);
