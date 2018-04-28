@@ -14,4 +14,6 @@
             1.理解 js 中 var 的作用域
             2.了解闭包的概念
             3.理解 this 的指向
+16. cookie和session
+17. 《使用 promise 替代回调函数》
 33. lesson33:node3des配合前端进行加解密（失败）
