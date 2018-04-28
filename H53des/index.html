@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="DES3.js"></script>
+    <script src="Base64.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+    //原始未加密数据
+    var str = "我今天很不高兴";
+    document.write("原始字符串:</br>"+str);
+
+    //经过base64加密后
+    var base64 = BASE64.encoder(str);//返回编码后的字符
+    document.write("</br>BASE64后:</br>"+base64);
+
+    //经过base64解密后
+    var unicode= BASE64.decoder(base64);//返回会解码后的字符串。
+    document.write("</br>还原:</br>"+unicode);
+
+    //des3加密的密钥
+    var key = "qXSdHWfbSZaaLeHBRhLgxBiG";
+    //alert(decrypt_3des);
+
+    //进行3des加密
+    var des3en = DES3.encrypt(key,str);
+    document.write("</br>des3加密:</br>"+des3en);
+
+    //进行3des解密
+    document.write("</br>des3解密:</br>"+DES3.decrypt(key,des3en));
+</script>
+</html>
