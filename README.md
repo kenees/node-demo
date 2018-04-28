@@ -15,5 +15,6 @@
             2.了解闭包的概念
             3.理解 this 的指向
 16. cookie和session
-17. 《使用 promise 替代回调函数》
+17. 《使用 promise 替代回调函数》（无）
+18. websocket练习
 33. lesson33:node3des配合前端进行加解密（失败）
