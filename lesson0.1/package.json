@@ -1,0 +1,9 @@
+{
+  "name": "lesson0.1",
+  "version": "0.0.1",
+  "dependencies": {
+    "is-generator-function": "^1.0.7",
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0"
+  }
+}
